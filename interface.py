@@ -45,7 +45,26 @@ HIGHLIGHT_COLOR_MAP = {
 }
 
 with gr.Blocks(theme="soft", css="""
-#title {text-align:center; font-size: 32px; font-weight:700; margin-bottom:20px;}
+    body {
+        background-color: #06141B !important;
+    }
+
+    .gradio-container {
+        background-color: #06141B !important; 
+        color: #F0F0F0 !important; 
+    }
+          
+    #title {
+        text-align:center; 
+        font-size: 32px; 
+        font-weight:700; 
+        margin-bottom:20px; 
+        color: var(--color-accent);
+    }
+    
+    .gradio-container {
+        color: #F0F0F0;
+    }
 """) as demo:
 
     gr.HTML("<div id='title'>Пошук порушень правила вживання 'і/и' на початку слова</div>")
