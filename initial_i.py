@@ -1,8 +1,8 @@
-# initial_i_checker.py
+# initial_i.py
 
 import re
 
-EXCEPTIONS = {"иноді", "иний", "ирій", "икати", "инший", "ич", "ир"}
+EXCEPTIONS = {"иноді", "иній", "ирій", "икати", "инший", "ич", "ир"}
 
 def find_initial_i_errors(text):
     
