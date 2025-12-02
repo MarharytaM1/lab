@@ -2,7 +2,7 @@
 
 import re
 
-EXCEPTIONS = {"иноді", "иний", "ирій", "икати", "инший"}
+EXCEPTIONS = {"иноді", "иний", "ирій", "икати", "инший", "ич", "ир"}
 
 def find_initial_i_errors(text):
     
