@@ -15,7 +15,6 @@ def find_initial_i_errors(text):
         word = match.group()
         start, end = match.start(), match.end()
         
-        # ... (решта логіки залишається без змін) ...
         if start > last_index:
             highlights.append((text[last_index:start], None))
             
